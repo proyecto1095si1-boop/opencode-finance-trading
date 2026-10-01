@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.local
+.browser-profile/
+.artifacts/
+artifacts/
+opencode.git/
+opencode-finance-trading-export.zip
+*.pyc
+*.egg-info/
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "mcp": {
+    "servers": {
+      "binance-browser": {
+        "type": "local",
+        "command": [
+          "python",
+          "-m",
+          "trading.browser.mcp_server"
+        ],
+        "environment": {
+          "BROWSER_HEADLESS": "false",
+          "BROWSER_PROFILE_DIR": "/workspaces/opencode-finance-trading/.browser-profile",
+          "BROWSER_CDP_URL": ""
+        }
+      }
+    }
+  }
+}
